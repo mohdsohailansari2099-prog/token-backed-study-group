@@ -1,0 +1,16 @@
+[package]
+name = "token-backed-study-group"
+version = "1.0.0"
+authors = []
+
+[addresses]
+MyModule="0xf9360c699dc3eabc64f17f71f40344b7885d02300e8bc0d602f79bd35687fccc"
+
+[dev-addresses]
+
+[dependencies.AptosFramework]
+git = "https://github.com/aptos-labs/aptos-framework.git"
+rev = "mainnet"
+subdir = "aptos-framework"
+
+[dev-dependencies]
